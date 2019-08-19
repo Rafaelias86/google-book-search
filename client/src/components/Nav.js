@@ -1,5 +1,5 @@
 import React from "react";
-import Jumbotron from "../Jumbotron";
+import Jumbotron from "./Jumbotron";
 
 function Nav() {
   return (
