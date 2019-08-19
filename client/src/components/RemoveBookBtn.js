@@ -4,7 +4,7 @@ import Button from "./Button";
 
 function RemoveBookBtn(props) {
     return (
-      <Button type="danger" className="delete-btn" {...props} role="button" tabIndex="0">
+      <Button type="danger" className="delete-btn ml-3 mt-3 mb-5" {...props} role="button" tabIndex="0">
         Delete
       </Button>
     );

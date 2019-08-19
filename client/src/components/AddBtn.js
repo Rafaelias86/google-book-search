@@ -16,19 +16,19 @@ class AddBtn extends React.Component{
         }
     
         axios.post("/api/books", dbBook)
-        .then( () => toast.success(`You added ${book.title} to your bookshelf`))
+        .then( () => toast.success(`You added ${book.title}`))
         .catch(err => console.log(err))
       }
 
     render() {
         return (
           <div>
-          <Button type="primary" onClick={() => 
-            {this.postToDB(this.props)}
-            }>
-            Save Book
-        </Button>
-        </div>
+            <Button className = "ml-3 mt-3 mb-5" type="primary" onClick={() => 
+              {this.postToDB(this.props)}
+              }>
+              Save Book
+            </Button>
+          </div>
         );
     }
   }

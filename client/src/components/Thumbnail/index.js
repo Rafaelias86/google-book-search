@@ -7,9 +7,9 @@ import "./style.css"
 function Thumbnail({ src }) {
   return (
     <div
-    className="thumbnail"
+    className = "img-fluid img-thumbnail thumbnail"
+      alt = "Responsive image"
       role="img"
-      aria-label="Recipe Image"
       style={{
         backgroundImage: `url(${src})`
       }}
