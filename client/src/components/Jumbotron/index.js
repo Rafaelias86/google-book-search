@@ -4,14 +4,18 @@ import "./style.css"
 
 function Jumbotron() {
   return (
-    <div className="jumbotron text-center">
-      <h1><span><a className="white" id="jumboHead" href="/">My Virtual Bookshelf</a></span></h1>
+    <div className = "container">
+      <div className="jumbotron text-center mt-4">
         <div>
-          <a className="white" target="_blank" rel="noopener noreferrer" href="http://developers.google.com/books/">
-            Powered by Google Books
+          <h1 className="mb-3"><span><a className="white" id="jumboHead" href="/">Google Books Search</a></span></h1>
+        </div>
+        <div>
+          <a className="white mt-5" target="_blank" rel="noopener noreferrer" href="http://developers.google.com/books/">
+            Powered by Google
           </a>
         </div>
-      
+        
+      </div>
     </div>
   );
 }

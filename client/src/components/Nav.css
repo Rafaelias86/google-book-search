@@ -1,0 +1,9 @@
+#homeLink{
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+}
+#savedLink{
+    font-family: 'Rubik', sans-serif;
+    background-color:rgba(205,249,31,0.87);
+    color: floralwhite;
+}

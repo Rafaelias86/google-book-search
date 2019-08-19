@@ -1,10 +1,17 @@
 div.jumbotron {
-    background-image: url(https://www.irishtimes.com/polopoly_fs/1.2387263.1444502303!/image/image.jpg_gen/derivatives/box_620_330/image.jpg)
+    background-image: url(https://s26162.pcdn.co/wp-content/uploads/2016/04/stack_of_books.jpg);
+    background-repeat: no-repeat;
     
     }
     
     .white{
         color:floralwhite;
+        background-color: rgba(65,202,214,0.64);
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top:4px;
+        padding-bottom:4px;
+        font-family: 'Rubik Mono One', sans-serif;
     }
     
     /* a{
